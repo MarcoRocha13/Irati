@@ -132,3 +132,21 @@ ul {
   {
     width: 100%;
   }
+  .hover
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin: 30px;
+    background-color: lightcyan;
+    border:solid blue 4px;
+    padding: 15px;
+}
+.hover>span
+{
+  display:none;
+}
+.hover:hover>span
+{
+  display:block;
+}
