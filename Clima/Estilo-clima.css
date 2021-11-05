@@ -93,3 +93,28 @@ ul {
       width: 100%;
     }
   }
+  .button {
+    background-color:black; 
+    border:inset;
+    color: white;
+    cursor:pointer;
+    padding: 8px 20px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+         width: 10%;
+         max-width: 100%;
+         height: auto;
+    
+  }
+  .button:hover {background-color:#333}
+  
+  .button:active {
+    background-color:#333;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
